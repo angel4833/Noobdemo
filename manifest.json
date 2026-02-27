@@ -1,8 +1,8 @@
 {
-  "name": "tioplus-downloader",
+  "name": "tioplus-video-extractor",
   "author": "tu_nombre",
-  "title": "TioPlus APK Extractor",
-  "description": "Extrae automáticamente el enlace directo del APK de tioplus.app",
+  "title": "TioPlus Video Extractor",
+  "description": "Extrae el enlace directo de video (mp4/m3u8/iframe) de las páginas de episodios de tioplus.app",
   "version": "1.0.0",
   "scripts": [
     {
