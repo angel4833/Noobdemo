@@ -1,0 +1,19 @@
+{
+  "name": "tioplus-downloader",
+  "author": "tu_nombre",
+  "title": "TioPlus APK Extractor",
+  "description": "Extrae automáticamente el enlace directo del APK de tioplus.app",
+  "version": "1.0.0",
+  "scripts": [
+    {
+      "event": "onResolve",
+      "match": {
+        "urls": [
+          "*://tioplus.app/*",
+          "*://*.tioplus.app/*"
+        ]
+      },
+      "entry": "index.js"
+    }
+  ]
+}
